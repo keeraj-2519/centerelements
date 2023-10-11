@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <title>Nav bar</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css"></head>
+  <body>
+    <nav class="navbar-inverse" style="position: sticky;top:0;z-index:9999">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+          <span class="icon-bar"></span> 
+<span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+          </button>
+        <a class="navbar-brand" href="#">Kee</a>
+        </div>
+      <div class ="navbar-collapse collapse" id="mynavbar">
+        <ul class="menu">
+            
+      <li><a href="#Home">Home</a></li>
+       <li><a href="#Education">Education</a></li>
+       <li><a href="#Skills">Skills</a></li>
+      <li><a href="#Inspiration">Inspiration</a></li>
+            </ul>
+    </div>
+  </nav>
+      <center>
+    <div id="header">
+    <div class="container">
+        <nav>
+        <img src="https://i.postimg.cc/tT4vHKc0/kee.jpg" class="logo">
+           
+        </nav>
+      <br>
+        <section id="home">
+      <div class="main">
+      <img src="nature1.jpg" id="im1">
+          <h1>About Nature</h1>
+        <p>Nature is the ultimate source of our living. Both living and non-living things include nature, and everyone is interdependent, which helps maintain the ecosystem. Plants, animals, and humans all depend on nature for their survival. </p>
+      </div>
+           </section>
+         <section id="Education">
+      <div class="main2">
+           <img src="watering.jpg" id="im2">
+          <h1>watering the plants</h1>
+          <p>What is watering the plants?
+              Plants need water for survival and to grow. Plants use carbon dioxide along with water to make their food via photosynthesis. Water also helps in the transport of nutrients in plants. Seeds can not germinate without water.</p></div>
+    </section> 
+      <br>
+      <section id="Skills">
+        <h1>Important Function of a Plant</h1>
+        <img src="parts.jpg"><br>
+          <p>
+Plants provide us with food, fiber, shelter, medicine, and fuel. The basic food for all organisms is produced by green plants. In the process of food production, oxygen is released. This oxygen, which we obtain from the air we breathe, is essential to life.
+      </section>
+      <section id="Inspiration"><br>  
+        <h1>Inspiration</h1>
+           <img src="inspire.webp">
+        <h2>About plants</h2>
+          <p>Plants are the unsung heroes of our existence. They help us survive by providing oxygen, food, and shelter. They even heal our wounds.</p>
+        </section>
+        </div>
+          </div></center>
+          </body>
+        
+         <style>
+    .main{
+        width:400px;
+        height:700px;
+        border:3px ridge white;
+        border-radius:15px;
+        background-image:url(artistcondo-1200x675.webp);
+        background-size:cover;
+        }
+        #im1{
+            position: absolute;
+            width:80px;
+            height:px;
+            top:250;
+            left:500;
+            transform: translate(-50%,-50%);
+            border-radius:15px;
+            box-shadow: 3px 3px 3px rgba(0.3, 0.3, 0.3);
+            margin-bottom:15px;
+            
+        }
+         #im2{
+            position: absolute;
+            width:500px;
+            height:500px;
+            top:450;
+            left:425;
+            transform: translate(-50%,-50%);
+        }
+        @media screen and (max-width:700px){
+            img{
+                height:150px;
+                width:150px;
+            }
+        }
+        @media screen and (min-width:701px) and (max-width:1200px){
+            img{
+                width:800px;
+                height:800px;
+            }
+        }
+    </style>
+        </html>
